@@ -1,5 +1,10 @@
+body {
+  background-image: url("C:\Users\cbrofft1\Desktop\Codecademy Files\spotify-playlist-project\jamming\src\Components\App\background_photo_desktop.jpg");
+}
+
 .App {
   text-align: center;
+  color: azure;
 }
 
 .App-logo {
@@ -36,3 +41,5 @@
     transform: rotate(360deg);
   }
 }
+
+
