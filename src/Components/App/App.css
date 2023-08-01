@@ -1,5 +1,6 @@
 body {
   background-image: url("C:\Users\cbrofft1\Desktop\Codecademy Files\spotify-playlist-project\jamming\src\Components\App\background_photo_desktop.jpg");
+  background-size: auto;
 }
 
 .App {
