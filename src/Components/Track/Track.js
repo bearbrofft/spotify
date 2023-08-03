@@ -22,7 +22,7 @@ addTrack() {
 }
 
 removeTrack() {
-    this.props.onRemove(this.props.track)
+    this.props.onRemove(this.props.track);
 }
 
     render() {
@@ -32,7 +32,6 @@ removeTrack() {
                 <h3>{this.props.track.name}</h3>
                 <p>{this.props.track.artist} | {this.props.track.album}</p>
             </div>
-            {/* <button className="Track-acion"><!-- + or - will go here --></button> */}
             {this.renderAction()}
             </div>
         );
